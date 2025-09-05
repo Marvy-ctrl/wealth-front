@@ -17,3 +17,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer li {
+  /* @apply text-gray-500 hover:text-white cursor-pointer transition-colors duration-200; */
+    @apply text-white hover:underline leading-loose cursor-pointer my-2;
+  
+}
+

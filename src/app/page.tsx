@@ -2,6 +2,9 @@ import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Stats from "@/components/Stats";
 import Goals from "@/components/goals";
+import About from "@/components/about";
+import OpenAcc from "@/components/OpenAcc";
+import Footer from "@/components/footer";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,7 +14,9 @@ export default function Home() {
       <Hero />
       <Stats />
       <Goals />
-      <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20"></div>
+      <About />
+      <OpenAcc />
+      <Footer />
     </main>
   );
 }
