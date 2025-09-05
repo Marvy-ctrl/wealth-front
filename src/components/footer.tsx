@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 function Footer() {
   return (
-    <section className="footer bg-[#18172B] text-white text-center p-20">
-      <div className="container mx-auto grid grid-cols-2 md:grid-cols-5 text-left">
+    <section className="footer bg-[#18172B] text-white text-center py-20">
+      <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 gap-6 md:grid-cols-5 text-left">
         <div>
           <Image src={"/logo.svg"} alt="logo" width={200} height={200}></Image>
         </div>
