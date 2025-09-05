@@ -3,7 +3,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <section className="footer bg-[#18172B] text-white text-center p-20">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 text-left">
+      <div className="container mx-auto grid grid-cols-2 md:grid-cols-5 text-left">
         <div>
           <Image src={"/logo.svg"} alt="logo" width={200} height={200}></Image>
         </div>
