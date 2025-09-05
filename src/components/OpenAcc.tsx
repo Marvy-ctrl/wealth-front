@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./ui/button";
 function OpenAcc() {
   return (
-    <section className="bg-[#1c1049]  bg-gradient-to-br from-[#1c1049] via-[#1c1049] to-[#6c5ab5]/60 text-white text-center p-10 md:p-30 h-200 md:h-90">
+    <section className="bg-[#1c1049]  bg-gradient-to-br from-[#1c1049] via-[#1c1049] to-[#6c5ab5]/60 text-white text-center p-10 md:p-20 h-[400px] md:h-[300px]">
       <div className="">
         <h1 className="text-3xl md:text-6xl font-bold">
           Save and Invest{" "}
