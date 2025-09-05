@@ -59,7 +59,7 @@ function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-[#3b2b7d]">
+    <header className="bg-[#1c1049]">
       <nav className="container mx-auto text-white px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div>

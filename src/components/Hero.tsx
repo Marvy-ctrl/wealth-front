@@ -4,7 +4,7 @@ import Button from "./ui/button";
 
 function Hero() {
   return (
-    <section className="bg-[#3b2b7d] h-full md:h-full pb-10">
+    <section className="bg-[#3b2b7d] bg-gradient-to-br from-[#1c1049] via-[#1c1049] to-[#6c5ab5]/60 h-full md:h-full pb-10">
       <div className=" container mx-auto pt-8 text-white px-6 py-4">
         <div className="grid grid-cols-1 md:grid-cols-2 mt-12">
           <div>
