@@ -8,7 +8,7 @@ function Footer() {
           <Image src={"/logo.svg"} alt="logo" width={200} height={200}></Image>
         </div>
         <div>
-          <h1 className="font-bold text-[22px] pb-4 md:pb-2">Investing</h1>
+          <h1 className="font-bold text-[22px] pb-2">Investing</h1>
           <ul>
             <li>Automated Investing</li>
             <li>Stock Investing</li>
